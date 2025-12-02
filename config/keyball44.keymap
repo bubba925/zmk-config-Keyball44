@@ -84,10 +84,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp GRAVE  &hold_tap_preferred EXCL N1  &hold_tap_preferred AT_SIGN N2  &hold_tap_preferred HASH N3  &hold_tap_preferred DOLLAR N4  &hold_tap_preferred PERCENT N5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none      &kp LEFT                     &kp DOWN                        &kp UP_ARROW                 &kp RIGHT                      &none                                       &none         &none         &none         &none         &none         &none
-&none      &none                        &none                           &none                        &none                          &none                                       &none         &none         &trans        &trans        &none         &none
-&trans     &trans                       &trans                          &trans                       &trans                                                             &trans  &trans                                                                &trans
+&hold_tap_preferred TILDE GRAVE  &hold_tap_preferred EXCL N1  &hold_tap_preferred AT_SIGN N2  &hold_tap_preferred HASH N3  &hold_tap_preferred DOLLAR N4  &hold_tap_preferred PERCENT N5              &hold_tap_preferred CARET N6  &hold_tap_preferred AMPERSAND N7  &hold_tap_preferred ASTRK N8  &hold_tap_preferred LEFT_PARENTHESIS N9      &hold_tap_preferred RIGHT_PARENTHESIS N0       &hold_tap_preferred PLUS EQUAL
+&none                            &kp LEFT                     &kp DOWN                        &kp UP_ARROW                 &kp RIGHT                      &none                                       &none                         &none                             &none                         &hold_tap_preferred LEFT_BRACE LEFT_BRACKET  &hold_tap_preferred RIGHT_BRACE RIGHT_BRACKET  &none
+&none                            &none                        &none                           &none                        &none                          &none                                       &none                         &none                             &trans                        &trans                                       &none                                          &none
+&trans                           &trans                       &trans                          &trans                       &trans                                                             &trans  &trans                                                                                                                                                                                    &trans
             >;
         };
 
