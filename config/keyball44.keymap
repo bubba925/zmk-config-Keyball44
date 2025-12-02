@@ -84,10 +84,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none   &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                     &none         &none         &none         &none         &none         &none
-&none   &none         &none         &none         &none         &none                     &none         &none         &trans        &trans        &none         &none
-&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                &trans
+&kp GRAVE  &hold_tap_preferred EXCL N1  &hold_tap_preferred AT_SIGN N2  &hold_tap_preferred HASH N3  &hold_tap_preferred DOLLAR N4  &hold_tap_preferred PERCENT N5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
+&none      &kp LEFT                     &kp DOWN                        &kp UP_ARROW                 &kp RIGHT                      &none                                       &none         &none         &none         &none         &none         &none
+&none      &none                        &none                           &none                        &none                          &none                                       &none         &none         &trans        &trans        &none         &none
+&trans     &trans                       &trans                          &trans                       &trans                                                             &trans  &trans                                                                &trans
             >;
         };
 
