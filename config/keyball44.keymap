@@ -121,16 +121,6 @@
             >;
         };
 
-        scroll_layer {
-            label = "SCROLL";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &to 0   &trans  &trans              &trans  &trans                                  &trans
-            >;
-        };
-
         snipe_layer {
             label = "SNIPE";
             bindings = <
@@ -138,6 +128,16 @@
 &trans  &trans  &trans  &mo 6   &trans  &trans              &trans  &mkp LCLK  &mkp RCLK  &mo 6   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &to 0   &trans  &trans              &trans  &trans                                        &trans
+            >;
+        };
+
+        scroll_layer {
+            label = "SCROLL";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &to 0   &trans  &trans              &trans  &trans                                  &trans
             >;
         };
     };
