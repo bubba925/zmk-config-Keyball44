@@ -39,7 +39,7 @@ layers:
   - {t: \, h: NUM, s: '|'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: NUM, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-space$$
   - '&shiftcapsword'
   - $$mdi:keyboard-tab$$
